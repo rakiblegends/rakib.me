@@ -1,0 +1,409 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .logo-wrapper svg {
+        left: -180px;
+        width: 350px;
+    }
+    .logo:before {
+        width: 490px;
+        left: -280px;
+        top: -36px;
+        z-index: -1;
+    }
+    .logo {
+        font-size: 18px;
+        padding-top:11px;
+    }
+    .mainmenu {
+        margin-left: -10px;
+        margin-right: -15px;
+    }
+    .mainmenu ul li a {
+        font-size: 12px;
+        padding: 14px 4px;
+    }
+    .hire-btn {
+        padding: 12px 13px;
+    }
+    .author-bg-wrapper svg {
+        top: -159px;
+        width: 141%;
+    }
+    .author-image img {
+        margin-right: 0px;
+    }
+    .social-media-link h4 {
+        margin-right: 30px;
+    }
+    .section-padding {
+        padding: 75px 0;
+    }
+    .about-title {
+        font-size: 50px;
+    }
+    .about-content {
+        font-size: 11px;
+    }
+    .about-area {
+        padding: 50px 0;
+    }
+    .about-svg-wrapper svg {
+        top: -184px;
+        width: 268px;
+    }
+    .single-portfolio-item.large {
+        width: 505px;
+    }
+    .single-portfolio-item {
+        height: 265px;
+        width: 240px;
+    }
+    .client-image-wrapper {
+        height: 350px;
+        width: 330px;
+    }
+    .owl-carousel .client-image img {
+        height: 330px;
+    }
+    .quote-icon img {
+        margin-left: -130px;
+    }
+    .client-review-text-inner h1 {
+        font-size: 35px;
+    }
+    .client-review-text {
+        width: 95%;
+        margin-left: 50px;
+    }
+    .client-review-text-inner h1 {
+        font-size: 35px;
+    }
+    .client-review-text-inner {
+        font-size: 15px;
+    }
+    .testimonial-carousel.owl-carousel .owl-dots {
+        left: 50%;
+        bottom: 15%;
+    }
+    .footer-content h1 {
+        font-size: 45px;
+        padding-top:75px;
+    }
+}
+
+/* Tablet & Mobile Layout: 768px. */
+@media only screen and (max-width: 991px) {
+    .section-padding {
+        padding: 60px 0;
+    }
+   #tablet-menu-placement{
+       display:block;
+   }
+   .mainmenu{
+       display: none;
+   }
+   .hire-btn {
+    font-size: 14px;
+    padding: 12px 20px;
+    }
+    .logo {
+        font-size: 16px;
+        margin-left: 16px;
+        margin-top: 2px;
+    }
+    .logo-wrapper svg{
+        opacity: 0;
+        visibility:hidden;
+    }
+    .logo span {
+        color: #605cee;
+    }
+    .logo:hover{
+        color:#2b2b2b;
+    }
+    nav.navibar {
+        height: 70px;
+    }
+    nav.navibar.header-area.headroom.headroom--not-bottom.headroom--not-top.headroom--pinned {
+        box-shadow: 0 0 5px #ddd;
+    }
+    #tablet-menu-placement{margin-top:20px;}
+
+    .slicknav_btn {
+        float: none;
+        display:inline-block;
+        background-color: #06D6A0;
+    }
+
+    .home-slicknav .slicknav_btn{background-color: #605cee}
+    
+    .slicknav_menu {
+        background-color: transparent;
+        display: block;
+    }
+    
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    .slicknav_menu .slicknav_icon {
+        margin-left: 0;
+    }
+    ul.slicknav_nav {
+        background-color: #333;
+    }
+
+    .slicknav_nav li, .slicknav_nav ul {
+        text-align: center;
+    }
+    .slicknav_menu {
+        position: absolute;
+        left: 50%;
+        margin-left: -55px;
+        top: 8px;
+    }
+    .slicknav_nav, .slicknav_nav ul {
+        list-style: none;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 300px;
+        left: -100px;
+    }
+    .slicknav_nav .slicknav_row, .slicknav_nav a {
+        padding: 8px 0;
+        margin: 2px 0;
+        transition: 0.2s;
+    }
+    .slicknav_nav a:hover {
+        background-color: #605cee;
+        border-radius: 0;
+        color: #fff;
+    }
+    .slicknav_nav a:nth-child(1) {
+        margin-top: 0;
+    }
+    .hero-area {
+        padding-top: 100px;
+        text-align: center;
+    }
+    .left-side-content .boxed-btn {
+        margin-left: -130px;
+    }
+    .left-side-content h1 span {
+        margin-top: 0px;
+    }
+    .left-side-content {
+        margin-bottom: 60px;
+        padding-top: 20px;
+    }
+    .author-image.text-right {
+        text-align: center!important;
+    }
+    .author-bg-wrapper svg {
+        right: 25px;
+        top: -175px;
+        width: 80%;
+    }
+    .about-content {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    .about-svg-wrapper svg {
+        display: none;
+        visibility: hidden;
+    }
+    .skill-wrapper {
+        top: -250px;
+        bottom:auto;
+    }
+    .single-portfolio-item.large{
+        width:690.5px;
+    }
+    .single-portfolio-item {
+        height: 340px;
+        width: 334.5px;
+    }
+    .video-area-bg {
+        height: 280px;
+    }
+    .client-image-wrapper {
+        margin: 35px auto;
+    }
+    .client-review-text {
+        text-align: center;
+        line-height: 1.9;
+    }
+    .testimonial-carousel.owl-carousel .owl-dots {
+        bottom: -30px;
+        left:50%;
+        margin-left:-50px;
+    }
+    .footer-content h1 {
+        font-size: 45px;
+        padding-top: 80px;
+    }
+    .footer-svg-wrapper {
+        width: 110%;
+        margin-left: 0;
+    }
+    .footer-content {
+        margin-bottom: 50px;
+    }
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .slicknav_menu {
+        right: 0;
+        left: auto;
+        margin-left: 0;
+        top:7px;
+    }
+    .logo-wrapper {
+        display: inline-block;
+    }
+    .hire-btn {
+        display: none;
+    }
+    .logo-wrapper svg {
+        left: -82px;
+        top: -177px;
+        width: 375px;
+        height: 260px;
+    }
+    .logo {
+        margin-top: 5px;
+    }
+    .left-side-content .boxed-btn {
+        margin-right: 7px;
+        padding:12px;
+    }
+    .video-play-btn {
+        padding-left: 0;
+    }
+    .boxed-btn {
+        padding: 12px 18px;
+    }
+    .left-side-content h3 {
+        font-size: 17px;
+    }
+    .left-side-content h1 span {
+        font-size: 45px;
+    }
+    .section-title h1 {
+        font-size: 35px;
+    }
+    .social-media-link h4 {
+        margin-top: 30px;
+    }
+    .author-image img {
+        height: 250px;
+        margin: 0 auto;
+    }
+    .section-padding {
+        padding: 40px 0;
+    }
+    .service-carousel.owl-carousel .owl-dots {
+        left: 34%;
+        bottom: -70px;
+    }
+    .section-padding.pdt-175 {
+        padding-top: 100px;
+    }
+    .single-portfolio-item {
+        width: 95%;
+        margin-right: 0;
+    }
+    .single-portfolio-item.large {
+        width: 95%;
+    }
+    .single-logo-item img {
+        height: 20px;
+    }
+    .logo-area {
+        margin: -20px 0;
+        margin-top: -40px;
+    }
+    .footer-svg-wrapper {
+        margin-top: -60px;
+    }
+    .filter-list li {
+        margin-right:20px;
+        font-size: 14px;
+    }
+    .owl-carousel .owl-dots button.owl-dot {
+        width: 20px;
+    }
+    .quote-icon img {
+        margin-left: -127px;
+    }
+    .about-content {
+        width: 100%;
+    }
+    .slicknav_nav, .slicknav_nav ul {
+        left: auto;
+        right: 10px;
+    }
+    .client-review-text-inner h1 {
+        font-size: 35px;
+    }
+    .client-review-text{
+        margin-left:0;
+    }
+    .footer-area {
+        overflow: hidden;
+    }
+    .form-wrapper {
+        position: fixed;
+        bottom: -20px;
+        padding: 30px;
+    }
+    .form-wrapper input[type=text], .form-wrapper input[type=tel], .form-wrapper [type=email], textarea {
+        padding: 6px 20px;
+    }
+    .form-wrapper p {
+        margin-bottom: 10px;
+    }
+    .footer-content h1 {
+        font-size: 35px;
+    }
+    .form-wrapper h1 {
+        margin-bottom: 20px;
+    }
+        
+    
+}
+/* Wide Mobile Layout */
+@media only screen and (max-width: 574px){
+    .author-bg-wrapper svg {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .social-media-link a {
+        font-size: 15px;
+        padding-right: 15px;
+    }
+    .social-media-link h4 {
+        font-size: 17px;
+        margin-right: 25px;
+    }
+}
+
+/* Different Mobile */
+@media only screen and (min-width: 575px) and (max-width: 767px) { 
+    .author-image img {
+        height: 300px;
+        margin-right:60px;
+    }
+    .author-bg-wrapper svg {
+        right: -5px;
+        top: -155px;
+        width: 95%;
+    }
+
+}
