@@ -1,0 +1,66 @@
+
+html,body{
+    height: 100%;
+}
+
+a.boxed-btn,input[type=submit] {
+    background: #06d6a0;
+}
+
+.website-checker-form {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.website-checker-form input {
+    background: #073b4c;
+    border-color: #073b4c;
+    color: #fff;
+}
+
+.website-checker-form input[type=submit] {
+    background: #06d6a0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+body {
+    font-weight: 300;
+}
+
+.service-icon {
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #5bdfb5;
+}
+
+.pricing-box-heading p.price {
+    font-weight: 400;
+    color: #06d6a0;
+}
+
+.theme-2 p.price {
+    color: #4186ef;
+}
+
+.single-pricing-box:hover,.single-pricing-box:hover .pricing-box-heading {
+    border-color: #06d6a0;
+}
+
+img.testimonial-author {
+    visibility: visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.owl-carousel .owl-dots button.owl-dot.active{background:#06d6a0; }
+.site-wrapper{height: 100%;}
+.site-wrapper.active{height: auto;}
+.site-wrapper.active .homepage-welcome-item-table-cell {
+    padding: 135px 0;
+}

@@ -1,0 +1,460 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .single-service-box {
+        padding: 15px;
+    }
+    .case-study-hover {
+        display: block;
+    }
+    a.view-case-study-btn {
+        margin: 0;
+    }
+    .left-side-hero h1 {
+        font-size: 37px;
+    }
+    .single-service-box-2 {
+        height: 220px;
+    }
+    .single-widget-item h4 {
+        font-size: 17px;
+    }
+    ul.social-links.theme-2 li {
+        padding-left: 0px;
+    }
+    .footer-area .col-lg-8 .col-lg-2.text-right {
+        margin-left: -20px;
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .homepage-slide-item-table-cell h1 {
+        font-size: 45px;
+    }
+    .header-absolute-area .mainmenu li.mega-menu ul {
+        width: 100%;
+    }
+    .right-side-hero {
+        padding-top: 25px;
+    }
+    .theme-3 .single-case-study-item {
+        height: 255px;
+    }
+    a.single-blog-item {
+        min-height: 550px;
+    }
+    .service-area.theme-4:before {
+        height: 90%;
+    }
+    .service-area.theme-4:after {
+        height: 90%;
+        width: 47%;
+        margin-top: -50px;
+    }
+    form.seo-feedback-form input[type='text'], form.seo-feedback-form input[type='tel'], form.seo-feedback-form input[type='email'], form.seo-feedback-form input[type='submit'], form.seo-feedback-form textarea {
+        padding: 8px 20px;
+        margin-bottom: 10px;
+    }
+    form.seo-feedback-form textarea {
+        height: 125px;
+    }
+    .case-study-details-area .pdt-80 {
+        padding-top: 22px;
+    }
+    .single-case-study-details {
+        margin-bottom: 20px;
+    }
+    .case-study-details.pdt-50 {
+        padding-top: 20px;
+    }
+    .single-team-member-box img {
+        height: 245px;
+    }
+    .service-features.pdt-35 {
+        padding-top: 20px;
+    }
+    .single-srvice-feature {
+        margin-top: 10px;
+    }
+    .service-feature-content p:last-child {
+        margin: 0;
+    }
+    .website-checker-form input[type="submit"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+/* Tablet & Mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    .mainmenu {
+        display: none;
+    }
+    .logo {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .header-area .text-right {
+        text-align: center!important;
+    }
+    .text-right{text-align: left!important}
+
+    .section-padding {
+        padding: 60px 0;
+    }
+    .hero-area {
+        padding:60px 0;
+        text-align: center;
+    }
+    .hero-area h1{font-size: 30px!important;}
+
+    .hero-area .text-right{text-align: center!important}
+
+    .left-side-hero {
+        margin-bottom: 30px;
+    }
+    .pdt-50 {
+        padding-top: 25px;
+    }
+    .product-example {
+        margin-bottom: 35px;
+    }
+    .case-study-hover {display: inherit;}
+
+    a.view-case-study-btn {
+        margin: 0;
+    }
+    .cta-area .text-right{text-align: center!important}
+    .cta-text {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .single-pricing-box {
+        margin-bottom: 25px;
+    }
+    .logo-carousel {
+        padding-top: 35px;
+    }
+    .pricing-box-area.section-padding {
+        padding-bottom: 60px;
+    }
+    .footer-area {
+        padding: 60px 0;
+    }
+
+    .single-service-box-2 {
+        margin-bottom: 20px;
+    }
+
+    .cta-area.theme-2 h2 {
+        font-size: 20px;
+        margin-bottom: 17px;
+    }
+    .cta-area.theme-2 {
+        padding: 35px 0;
+        padding-bottom: 25px;
+    }
+
+    .tablet-footer-logo{margin-bottom: 30px;text-align: center;margin-left:16%;}
+    .homepage-slide-item-table-cell h1 {
+        font-size: 35px;
+    }
+    a.video-play-btn {
+        margin-top: 7px;
+    }
+    .single-case-study-item {
+        height: 292px;
+    }
+
+    .blog-image {
+        height: 350px;
+    }
+
+    .cta-area.theme-3 {
+        padding: 50px;
+    }
+    .theme-3 .cta-text h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .theme-3 .cta-text p {
+        font-size: 15px;
+    }
+    .theme-3 .cta-text .boxed-btn {
+        margin-top: 3px;
+    }
+    .footer-logo {
+        text-align: center;
+    }
+    .footer-logo img {
+        margin-bottom: 10px;
+    }
+    .footer-area-2 .text-right {
+        text-align: center!important;
+    }
+    .footer-area-2 {
+        padding: 15px 0;
+    }
+    .copyright-area .text-right {
+        text-align: center!important;
+    }
+    .copyright-area .copyright-text {
+        padding: 0px 0;
+    }
+    .website-checker-form input[type="submit"] {
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 12px;
+    }
+    .homepage-slides .owl-nav .owl-next i {
+        right: 3%;
+    }
+    
+    .homepage-slides .owl-nav button i {
+        left: 3%;
+    }
+    .tiles-gallery {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+    }
+    img.absolute-tile-gallery-img {
+        position: inherit;
+    }
+    .service-area.theme-4:after{content:none;}
+    .service-area.theme-4:before {
+        width: 100%;
+    }
+    .video-area {
+        padding: 35px 0;
+    }
+    .testimonial-area-4.theme-4 .tablet-only {
+        display: block;
+    }
+    .cta-area.cta-bg {
+        padding: 25px;
+    }
+    .tablet-only-footer h4 {
+        text-align: center;
+    }
+    .footer-area.theme-4 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .tablet-only-widget {
+        margin-top: 15px;
+        margin-left: 16%;
+    }
+    .breadcumb-area h1 {
+        font-size: 30px;
+    }
+    .breadcumb-area {
+        padding: 40px 0;
+    }
+    .pdl-40 {
+        padding-left: 0;
+    }
+    .seo-feedback-img {
+        display: none;
+    }
+    .tablet-only-faq {
+        margin-top: 40px;
+    }
+    .faq-area h3 {
+        text-align: center;
+    }
+    .tablet-only-service{display: block}
+
+    ul.social-links.theme-2 li {
+        padding-left: 0px;
+    }
+    ul.social-links.theme-2 li a{font-size: 13px;}
+    #tablet-menu-placement{margin-top:20px;}
+
+    .slicknav_btn {
+        float: none;
+        display:inline-block;
+        background-color: #06D6A0;
+    }
+
+    .home-slicknav .slicknav_btn{background-color: #EF476F}
+    
+    .slicknav_menu {
+        background-color: transparent;
+        display: block;
+    }
+    
+    .slicknav_menu .slicknav_menutxt {
+        text-shadow: none;
+    }
+    ul.slicknav_nav {
+        background-color: #333;
+    }
+    
+    .slicknav_nav a:hover,.slicknav_item.slicknav_row:hover {
+        background: #06D6A0;
+        border-radius:0;
+        color:#fff;
+    }
+    .header-area.theme-5 .slicknav_nav a:hover{color: #fff;}
+    .home-slicknav .slicknav_nav a:hover,.home-slicknav .slicknav_item.slicknav_row:hover{background: #EF476F}
+
+    .slicknav_nav li, .slicknav_nav ul {
+        text-align: left;
+        margin-left: 5px;
+    }
+    
+    .mega-menu-cta h3 {
+        color: #fff;
+    }
+    
+    .mega-menu h4 {
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-top: 15px;
+        color: #06D6A0;
+    }
+    .home-slicknav .mega-menu h4{color: #EF476F;}
+    
+    .home-slicknav .mega-menu-cta h3 span {
+        color: #EF476F;
+    }
+ 
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+    .case-study-hover {padding-top: 10px;}
+    
+    .case-study-hover h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .case-study-hover p.case-study-description {
+        font-size: 17px;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+    .website-analysis-form input[type=url]{
+        margin-bottom: 10px;
+    }
+    .website-analysis-form input[type=submit] {
+        margin-left:0px;
+    }
+    .single-widget-item h4 {
+        margin-top: 40px;
+    }
+    .tablet-only-widget {
+        margin-left: 0;
+    }
+
+    .single-blog-item {
+        margin-bottom: 20px;
+    }
+    .tablet-footer-logo {
+        margin-bottom: 0px;
+        margin-left: 0;
+    }
+    .section-title {
+        margin-bottom: 50px;
+    }
+    .website-checker-form input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .website-checker-form input[type=submit] {
+        width: 100%;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .right-side-hero {
+        padding-top: 60px;
+        padding-left: 0;
+    }
+    .homepage-welcome-item-table-cell h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        padding-top: 50px;
+    }
+    .off-canvas-header {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .off-canvas-menu-footer {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        margin-top: 10px;
+    }
+    .offcanvas-menu {
+        margin-bottom: 0;
+    }
+    .off-canvas-menu-area {
+        padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+        overflow: scroll;
+    }
+    .website-checker-form {
+        margin-top: 0px;
+    }
+    .homepage-welcome-area, .single-homepage-welcome-item {
+        height: 110%;
+    }
+    .homepage-slides, .homepage-slides div {
+        height: 110%;
+    }
+    .single-homepage-slide-item {
+        display: block;
+    }
+    .homepage-slide-item-table-cell h1 {
+        font-size: 25px;
+        padding-top: 170px;
+    }
+    img.absolute-tile-gallery-img {
+        display: none;
+    }
+    .tilse-gallery-area.section-padding {
+        padding: 80px 0;
+    }
+    .service-area.theme-4 {
+        margin-top: 0;
+        margin-bottom: 70px;
+    }
+    .single-team-member-box img {
+        height: 280px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .single-team-member-box {
+        margin-bottom: 25px;
+    }
+    .seo-feedback-form-area {
+        padding-left: 0;
+    }
+    .address-area {
+        padding-left: 0;
+        padding-top: 45px;
+    }
+    span.social-sharing a {
+        padding: 7px 16px;
+        margin-bottom: 10px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}

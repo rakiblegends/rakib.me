@@ -1,0 +1,24 @@
+html,body{
+    height: 100%;
+    position: relative
+}
+.cta-bg{background-image: url(../img/cta-bg.jpg)}
+
+a.boxed-btn, input[type='submit']{background: #06d6a0;}
+
+.single-service-box:hover {
+    border-color: #10d7a3;
+}
+
+.single-service-box:hover h3, .single-service-box:hover .service-read-more-btn {
+    color: #10d7a3;
+}
+
+.hero-area{padding: 0; padding-bottom:110px;}
+.site-wrapper {
+    height: 100%;
+}
+.site-wrapper.active{height: auto;}
+.site-wrapper.active .boxed-padding {
+    padding: 130px 0;
+}

@@ -1,0 +1,11 @@
+
+a.boxed-btn , input[type=submit],.mainmenu.mainmenu-different li ul li:hover>a,.owl-carousel .owl-dots button.owl-dot.active,.case-study-hover,.mainmenu li ul li:hover>a,.theme-5 .mainmenu li ul li:hover>a,.theme-3.owl-carousel .owl-dots .owl-dot.active,form.seo-feedback-form input[type='submit'],a.video-play-btn-1,.theme-4 .email-subscription-form input[type=submit],.theme-3 .case-study-hover:after,.case-study-wrapper:after ,.single-service-box-2:after,.cta-area.theme-2,.single-homepage-slide-item:after,.cta-area.cta-bg:after,.single-testimonial-item.active .testimonial-text:after,.single-testimonial-item.active .testimonial-text,.theme-2 .pricing-content .boxed-btn {
+    background:#FFC312;
+}
+.mainmenu ul li a:hover,.single-service-box:hover h3,.single-service-box:hover .service-icon i.zmdi,.single-service-box:hover .service-read-more-btn,.pricing-box-heading p.price,ul.social-links li:hover a,ul.social-links li:hover a i.zmdi,.mega-menu-cta h3 span,.header-area.theme-5 ul li a:hover,.off-canvas-menu-footer ul.social-links li:hover a,.off-canvas-menu-footer ul.social-links li:hover a i.zmdi,.theme-5 .single-service-box:hover h3, .theme-5 .single-service-box:hover .service-icon i.zmdi, .theme-5 .single-service-box:hover .service-read-more-btn,a.blog-read-more-btn,.service-feature-icon i,.footer-area.theme-5 .social-links li:hover a,.footer-area.theme-5 .social-links li:hover a i,.footer-menu li a:hover,.footer-area-2 .social-links a:hover,.copyright-area li a:hover,.theme-4 ul.social-links li:hover a,.theme-4 ul.social-links li:hover a i,.mainmenu .mega-menu-cta h3 span,.address-area p i{
+    color: #FFC312;
+}
+.single-service-box:hover,.single-pricing-box:hover,.single-pricing-box:hover .pricing-box-heading ,.service-area.theme-5 .single-service-box:hover {
+    border-color: #FFC312;
+}
+.video-area{background-color: #FFC312}

@@ -1,0 +1,89 @@
+.hero-area{background-image: url(../img/hero2.png); background-color: #ddd;background-size: cover; background-position: center;}
+
+a.boxed-btn , input[type=submit] {
+    background: #06d6a0;
+}
+
+.mainmenu ul li a:hover {
+    color: #06d6a0;
+}
+
+.left-side-hero {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 65px;
+}
+
+.left-side-hero h1 {
+    color: #fff;
+    font-size: 45px;
+}
+
+.hero-area {
+    padding: 90px 0;
+}
+
+.pricing-box-heading h4 {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.pricing-box-heading p {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.single-blog-item {
+    border: 1px solid #f3f3f3;
+    padding: 35px 17px 35px 25px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 3px;
+    min-height: 350px;
+}
+
+.single-blog-item h3 {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.single-blog-item p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.single-blog-item:hover {
+    background: #fbfbfb;
+    border-color: #fbfbfb;
+}
+
+.footer-area p {
+    font-weight: 300;
+}
+
+
+/*Responsive CSS*/
+
+@media only screen and (max-width: 1200px) and (min-width: 992px){
+    .left-side-hero h1 {
+        font-size: 37px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+    .left-side-hero {
+        padding-top: 0px;
+    }
+    .about-area {
+        text-align: center;
+    }
+    .single-blog-item {
+        margin-bottom: 20px;
+    }
+
+}
+
