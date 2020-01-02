@@ -1,0 +1,64 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .off-canvas-menu{
+      width: 45%;
+      right: -45%;
+  }
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+
+/* Tablet Layout + Mobile: 991px. */
+@media only screen and (max-width: 991px) { 
+    .single-portfolio-item{
+        width: 50%;
+    }
+    .portfolio-list{
+        margin-bottom: 285px;
+    }
+    .off-canvas-menu{
+        width: 62%;
+        right: -62%;
+    }
+    
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    .single-portfolio-item{
+        width: 100%;
+        height: 400px;
+    }
+    .single-portfolio-item.boxed,.single-portfolio-item.long{
+        width: 100%;
+        height: 700px;
+    }
+    .off-canvas-menu{
+        width: 90%;
+        right: -90%;
+    }
+    .portfolio-list{
+        margin-bottom: 379px;
+    }
+    .social-links {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .social-links a{
+        margin-left: 0;
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .bottom-content {
+        bottom: 10px;
+    }
+
+}
