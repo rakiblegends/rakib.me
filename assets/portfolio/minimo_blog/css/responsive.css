@@ -1,0 +1,64 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    .header-menu li {
+        padding-left: 50px;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .header-menu li {
+        padding-left: 30px;
+    }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .col-sm-5.logo {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .header-menu li {
+        padding-left: 15px;
+        font-size: 11px;
+    }
+    .header-menu ul{
+        text-align:center;
+    }
+    .header-menu li a {
+        padding: 25px 0 40px;
+    }
+    .single-blog-item {
+        margin-bottom: 35px;
+    }
+    .blog-featered-content {
+        margin-bottom: 0px;
+    }
+    .col-md-10.offset-md-1.override-padding {
+        padding-left: 30px;
+    }
+    .newstellar-area {
+        margin-bottom: 45px;
+    }
+    .footer-menu ul {
+        text-align: center;
+        margin-left: -25px;
+    }
+    .text-right {
+        text-align: center!important;
+    }
+    a.load-more-btn {
+        padding: 10px 26px;
+        font-size: 15px;
+    }
+    .footer-area {
+        margin-top: 50px;
+    }
+    .blog-featered-content img {
+        height: 220px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
