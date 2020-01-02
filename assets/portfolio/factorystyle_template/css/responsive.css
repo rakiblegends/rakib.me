@@ -1,0 +1,201 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    .owl-dots{
+        width: 930px;
+    }
+    .about-image img{
+        height: 100%;
+    }
+    a.get-started-btn {
+        padding: 10px;
+    }
+    h4.cta-heading {
+        font-size: 16px;
+    }
+    .cta-area {
+        padding: 35px 0;
+    }
+    .section-top-padding{
+        padding: 60px 0;
+    }
+    .section-bottom-padding{
+        padding-bottom:0; 
+    }
+    .member-info {
+        padding: 25px 5px;
+    }
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .owl-dots{
+        width: 690px;
+    }
+    .header-top-right-area {
+        text-align: center;
+    }
+    span.social-links {
+        margin-top: 10px;
+    }
+    .header-bottom-area .col-lg-3 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .mainmenu-area {
+        text-align: center;
+    }
+    .about-image img{
+        width:100%;
+    }
+    .about-section-content {
+        text-align: center;
+    }
+    h4.cta-heading {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+    .cta-area {
+        padding: 20px 0;
+    }
+    a.get-started-btn {
+        padding: 10px;
+        font-size: 10px;
+    }
+    .about-section-content {
+        padding-bottom: 0px;
+    }
+    .section-top-padding {
+        padding:50px 0;
+    }
+    .section-bottom-padding {
+        padding-bottom: 0;
+    }
+    .single-team-member {
+        margin-bottom: 35px;
+    }
+    .navigation {
+        padding-left: 100px;
+    }
+    .single-widget .social-links {
+        display: block;
+    }
+    .footer-widget .col-6{
+        margin-top: 80px;
+    }
+    .single-widget.different-widget {
+        padding-left: 65px;
+    }
+    .footer-widget {
+        margin-bottom: 0px;
+    }
+    .service-title-area {
+        margin-bottom: 50px;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+    .owl-dots{width:480px;
+    }
+    .header-top-right-area {
+        text-align: center;
+    }
+    .header-top-left-area {
+        text-align: center;
+    }
+    span.social-links {
+        margin: 10px 0;
+        margin-left: 0;
+    }
+    .header-bottom-area .col-lg-3 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .mainmenu-area {
+        text-align: center;
+    }
+    .header-bottom-area {
+        padding: 15px 0;
+        opacity: 0;
+        left: -1000%;
+        transition: 0.3s;
+        position: absolute;
+    }
+
+.header-bottom-area.active{
+    left: 0%;
+    opacity: 1;
+    z-index: 99;
+    width: 100%;
+    position: relative;
+}
+    
+    .off-canvas-menu{
+        display: block;
+    }
+    i.fa.fa-close{
+        display: block;
+        z-index: 99;
+    }
+    .service-title-area {
+        margin-bottom: 50px;
+    }
+    .single-service-item {
+        margin-bottom: 30px;
+    }
+    .about-image img{
+        width: 100%;
+    }
+    .about-section-content {
+        text-align: center;
+    }
+    .section-top-padding {
+        padding:40px 0;
+    }
+    .section-bottom-padding {
+        padding-bottom: 0;
+    }
+    .about-section-content{
+        padding-bottom: 0;
+    }
+    .cta-area {
+        padding: 20px 0;
+    }
+    a.get-started-btn {
+        padding: 10px;
+        font-size: 14px;
+        margin-top: 13px;
+        display: inline-block;
+    }
+    h4.cta-heading {
+        font-size: 12px;
+    }
+    .cta-area .col-md-2.text-right{
+        text-align: center!important;
+    }
+    .single-team-member {
+        margin-bottom: 35px;
+    }
+    .navigation {
+        padding-left: 60px;
+    }
+    .single-widget .social-links {
+        display: block;
+    }
+    .footer-widget .col-6{
+        margin-top: 50px;
+    }
+    .single-widget.different-widget {
+        padding-left: 40px;
+    }
+    .footer-widget {
+        margin-bottom: 0px;
+    }
+ 
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
