@@ -628,7 +628,7 @@ nav.navibar {
     visibility: visible;
 }
 .service-carousel.owl-carousel .owl-stage-outer {
-    overflow-y: -webkit-paged-y;
+    padding-bottom: 25px;
 }
 
 
